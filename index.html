@@ -1,15 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <title>Redirect Page</title>
-  <script>
-    window.onload = function() {
-      window.location.href = "/static/"; // Replace with your desired URL
-    };
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+    <link rel="stylesheet" href="homestyle.css">
+    <title>AdriJuegos | 2.0</title>
 </head>
+
 <body>
-  <h1>Redirecting...</h1>
-  <p>If you are not redirected, <a href="/static/">click here</a>.</p>
+
+    <nav>
+
+        <ul class="nav-links">
+            <li class="link"><a href="#">Inicio</a></li>
+            <li id="link1" class="link"><a href="#">Funciones</a></li>
+            <li id="link2" class="link"><a href="#">Precio</a></li>
+            <li id="link3" class="link"><a href="#">Sobre AdriJuegos</a></li>
+        </ul>
+        <a class="btn" href="/account/login.php">Acceso VIP</a>
+    </nav>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>JUEGA CON ADRI</h4>
+            <H1>Bienvenido A <span>AdriJuegos</span>, Juegos Para Todos</H1>
+            <p>
+                Una Plataforma Creada Por Adrian Requejo Casado, O, 0m3g4_dev Para Jugar A Juegos Importados De Turbowarp.
+            </p>
+            <a href="duck.html" class="btn">Jugar Ya</a>
+        </div>
+        <div class="image">
+            <img src="hero.webp">
+        </div>
+    </header>
+
+    <section class="container">
+        <h2 class="header">Funciones:</h2>
+        <div class="features">
+            <div class="card">
+                <span><i class="ri-money-dollar-box-line"></i></span>
+                <h4>Juegos Gratis</h4>
+                <p>
+                   Biblioteca De Más De 1000 Juegos Disponibles Online, Sin Registro Ni Anuncios.
+                </p>
+                <a href="/account/register.php">Jugar Ya <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-bug-line"></i></span>
+                <h4>Sin Bugs</h4>
+                <p>
+                   Juegos A Pleno Rendimiento Sin Bugs, NUNCA.
+                </p>
+                <a href="/account/register.php">Jugar Ya <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-history-line"></i></span>
+                <h4>Actualizamos Diariamente</h4>
+                <p>
+Hay 200 Links Diarios Para Evitar Bloqueos. Tranqui, No Se Acaban.                </p>
+                <a href="/account/register.php">Jugar Ya <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="card">
+                <span><i class="ri-shake-hands-line"></i></span>
+                <h4>Pedir Juegos</h4>
+                <p>
+                    
+                    Quieres Algun Juego En Especial? Tranquilo, Solo Escribe Un Email A 0m3g4_dev@proton.me
+                </p>
+                <a href="/account/register.php">Jugar Ya <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2 class="header">AdriJuegos Pro+</h2>
+        <p class="sub-header">
+Quieres Más? Proxy Privada? Más Juegos? Este Es Tu Sitio:
+        </p>
+        <div class="pricing">
+            <div class="card">
+                <div class="content">
+                    <h4>Gratis</h4>
+                    <h3>0€</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Juegos Estándar (DuckHTML)
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Proxy Simple Y Lenta
+                    </p>
+                </div>
+                <a class="btn" href="account/register.php">Jugar Ya</a>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Plan Pro</h4>
+                    <h3>1€/MES</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Librería De Juegos Clasificados
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Proxy Ultrarrápida Y Profesional
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+Soporte 24/7                    </p>
+                </div>
+                <a class="btn" href="prime/error.php">Únete A Los VIP</a>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h4>Plan Gigachad</h4>
+                    <h3>5€/MES</h3>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        +100 Juegos Elite
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Proxy Edición Especial (Shuttle)
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Subo El Juego Que Quieras
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Windows 10 En El Chromebook
+                    </p>
+                    <p>
+                        <i class="ri-checkbox-circle-line"></i>
+                        Eres GIGACHAD
+                    </p>
+                </div>
+                <a class="btn" href="prime/error.php">Ser Un Chad</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container">
+        <span class="blur"></span>
+        <span class="blur"></span>
+        <div class="column">
+            <div class="logo">
+                <img src="images/flipper1.jpg">
+            </div>
+            <p>
+                "Remix De AdriJuegos Pero Mejor"
+            </p>
+            <div class="socials">
+                <a href="#"><i class="ri-youtube-line"></i></a>
+                <a href="#"><i class="ri-instagram-line"></i></a>
+                <a href="#"><i class="ri-twitter-line"></i></a>
+            </div>
+        </div>
+        <div class="column">
+            <h4>Yo</h4>
+            <a href="#">Negocio</a>
+            <a href="#">Cosigue VIP Gratis</a>
+            <a href="#">Red</a>
+        </div>
+        <div class="column">
+            <h4>AdriJuegos</h4>
+            <a href="#">Blogs</a>
+            <a href="#">Canales</a>
+            <a href="#">Plataformas</a>
+        </div>
+        <div class="column">
+            <h4>Contact</h4>
+            <a href="#">Contact Us</a>
+            <a href="#">Privicy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        Copyright © 2024 AdriJuegos. All Rights Reserved.
+    </div>
+
+
+    <script src="homescript.js"></script>
 </body>
+
 </html>
